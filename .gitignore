@@ -1,0 +1,61 @@
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebook checkpoints (keep .ipynb source files)
+.ipynb_checkpoints/
+
+# Local credentials (keep example configuration files)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+.AppleDouble
+Thumbs.db
+Desktop.ini
+
+# Downloaded datasets and temporary conversion output
+NuclearPowerPlantAccidentData/
+dataset_cache/
+downloaded_data/
+converted_data/
+/data/raw/
+/data/cache/
+*.ldb
+*.laccdb
+
+# Generated ML models and preprocessing artifacts
+*.keras
+*.h5
+*.hdf5
+*.joblib
+scaler.pkl
+config.pkl
+artifacts/
+checkpoints/
+
+# Runtime logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Keep source CSVs and dataset_manifest.csv trackable.
+# Add large generated-data directories above instead of ignoring every CSV.
