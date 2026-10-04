@@ -1,0 +1,13 @@
+frontend/node_modules/
+frontend/dist/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
+*.log
+*.tsbuildinfo
+.DS_Store

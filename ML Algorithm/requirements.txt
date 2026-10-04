@@ -1,0 +1,10 @@
+# Training and inference dependencies
+numpy
+pandas
+joblib
+scikit-learn
+tensorflow
+matplotlib
+
+# Run the .ipynb notebook in VS Code
+ipykernel
